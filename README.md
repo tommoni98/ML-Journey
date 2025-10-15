@@ -24,15 +24,26 @@ This is a collection of progressively challenging machine learning projects desi
 ### ✅ Project 1: Iris Classifier
 **Status:** Completed  
 **Focus:** Classification Fundamentals  
-**Tech Stack:** Python, Scikit-learn, Pandas, Matplotlib
+**Tech Stack:** Python, Scikit-learn, Pandas, Matplotlib, Seaborn
 
-Classic multi-class classification problem using the Iris dataset. Implemented and compared multiple algorithms including Logistic Regression, Decision Trees, and Random Forest.
+Complete classification pipeline for the classic Iris dataset. Implemented comprehensive data exploration, trained multiple models (Logistic Regression & Decision Tree), and created a prediction script for real-world use.
+
+**What I Built:**
+- 📊 **Exploratory Data Analysis:** Statistical analysis, pairplots, correlation visualization
+- 🤖 **Multiple Models:** Logistic Regression vs Decision Tree comparison
+- 📈 **Evaluation Pipeline:** Accuracy, confusion matrix, classification report, cross-validation
+- 🎯 **Hyperparameter Tuning:** GridSearchCV for optimal Decision Tree parameters
+- 🚀 **Prediction Script:** Standalone `predict.py` for making predictions on new samples
 
 **Key Learnings:**
-- Data preprocessing and exploratory data analysis
-- Model training and evaluation
-- Hyperparameter tuning
-- Model comparison and selection
+- Data preprocessing and feature scaling (StandardScaler)
+- Train-test split and cross-validation
+- Model comparison and selection criteria
+- Confusion matrix interpretation
+- Hyperparameter optimization with GridSearchCV
+- Building reusable prediction scripts
+
+**Results:** Achieved 97%+ accuracy with proper validation
 
 [📁 View Project](./project-1-iris-classifier/)
 
